@@ -27,7 +27,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 30px;
+    gap: 29px;
     
 }
 
@@ -111,6 +111,7 @@ body{
     background-clip: initial;
     background-color: initial;
     background: linear-gradient(to right, #0a246a 0%, #a6caf0 100%, #a6caf0 101%) !important;
+    flex-grow: 0;
     
 }
 
@@ -369,12 +370,8 @@ body{
 
 }
 
-.text-aboutme {
 
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-
+.bookcover:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
