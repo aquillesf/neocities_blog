@@ -1,0 +1,159 @@
+@font-face {
+    font-family: msdos;
+    src: url('../msdos_font/ModernDOS9x16.ttf') format('truetype');
+}
+
+
+body {
+    background-color: black;
+}
+
+.div_blog_main {
+    display: grid;
+    margin-top: 3%;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_blog {
+    border-width: 8px;
+    border-style: outset;
+    height:700px;
+    width: 600px;
+    margin-left: 200px;
+    border-color: rgb(255, 255, 255);
+    background-color: black;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.div_title {
+
+    border-width: 3px;
+    margin: 10px;
+    margin-left:45px;
+    border-color: rgb(255, 255, 255);
+    height: 130px;
+    width: 520px;
+    border-radius: 2px;
+
+}
+
+.title {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.pages {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.about_me {
+    background-color: black;
+    border-width: 3px;
+    color: white;
+    font-family: msdos;
+    border-style: outset;
+    border-color: white;
+    font-size: 40px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about_me:hover {
+    background-color: white;
+    color: black;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.projects {
+    background-color: black;
+    border-width: 3px;
+    color: white;
+    font-family: msdos;
+    border-style: outset;
+    border-color: white;
+    font-size: 40px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.projects:hover {
+    background-color: white;
+    color: black;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.links{
+    background-color: black;
+    border-width: 3px;
+    color: white;
+    font-family: msdos;
+    border-style: outset;
+    border-color: white;
+    font-size: 40px;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+}
+
+.links:hover {
+    background-color: white;
+    color: black;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.images_collection {
+    background-color: black;
+    border-width: 3px;
+    color: white;
+    font-family: msdos;
+    border-style: outset;
+    border-color: white;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.images_collection:hover {
+    background-color: white;
+    color: black;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.ascii_pc{
+
+    margin-bottom: 10px;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: 10px;
+    
+}
+
+.left_bar {
+    border-width: 5px;
+    border-color: white;
+    border-style:outset;
+    width: 250px;
+    height: 706px;
+    margin-left: 50px;
+}

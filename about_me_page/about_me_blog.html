@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "about_me_blog.css">
+        <link rel = "stylesheet" href = "musicplayer.css">
+        <link rel = "icon" href = "/images/Bliss_(Windows_XP).png">
+        <script src="https://kit.fontawesome.com/f936906ae0.js" crossorigin="anonymous"></script>
+        <title>about me</title>
+    </head>
+
+    <body>
+        <div class = "main-top">
+            <div class = "top-buttons">
+                <div class = "buttons"> 
+                    
+                    <a class = "anchor" href = "/about_me_page/buttons.pages/lit_page/lit.html">
+                        <p style = "text-align:center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">/lit/</p>
+                    </a>    
+
+                    
+                    <a class = "anchor" href="/about_me_page/buttons.pages/int_page/mov.html">
+                        <p style = "text-align:center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">/mov/</p>
+                    </a>   
+                    
+
+                    
+                    <a class = "anchor" href="/about_me_page/buttons.pages/int_page/mu.html">
+                        <p style = "text-align:center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">/mu/</p>
+                    </a>   
+                    
+
+                    
+                    <a class = "anchor" href="/about_me_page/buttons.pages/int_page/int.html">
+                        <p style = "text-align:center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">/int/</p>
+                    </a>   
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class = "main">
+
+    
+            <!--tela principal-->
+            <div class = "about_me_main">
+                <div class = "top_about_me">
+                    <p style = "color: white; display:inline-block; margin-left: 20px; padding: 0;
+                     font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">About Me</p>
+                </div>
+
+                <div class = "bottom_about_me">
+                    <div class = "text-aboutme">
+                        <img class = "linux_windows" src = "/images/Linux-Vs-windows.jpg" style = "width: 140px; margin: 10px; display: inline-block;">
+
+                        <p style = "margin: 0px; margin-left: 3px; margin-right: 3px;  text-align: center; font-family: windowsxp; font-size: 20px;">You can reach me at:  <strong>sacredgeometry_777@proton.me</strong></p>
+
+                        <p style = "margin: 0px; margin-left: 3px; margin-right: 3px; margin-bottom: 15px;  text-align: center; font-family: windowsxp; font-size: 20px;"><i>Any code or artwork I used to build this site will be credited in the "Links" section of the menu.</i></p>
+
+                        <p style = "margin: 0px; margin-left: 3px; margin-right: 3px; margin-bottom: 3px;  text-align: center; font-family: windowsxp; font-size: 20px;"></p>
+
+                        <p style = "margin: 0px; margin-left: 3px; margin-right: 3px; margin-bottom: 15px; text-align: center; font-family: windowsxp; font-size: 20px;">From now on, I plan to step away from other social networks like Twitter and Instagram and focus more on this space because I believe this shift will be healthier and keep me engaged in meaningful ways.</p>
+
+                        <p style = "margin: 0px; margin-bottom: 3px; margin-bottom: 15px; margin-left: 3px; margin-right: 3px; text-align: center; font-family: windowsxp; font-size: 20px;">My name is Aquiles, I'm Brazilian, 19 years old, and currently pursuing a degree in Programming and Computer Science, on this site, I’ll be sharing updates about my hobbies, IT projects, texts and some of my interests.</p>
+                        
+                        <p style = "margin: 0px; margin-bottom: 15px; margin-left: 3px; margin-right: 3px; text-align: center; font-family: windowsxp; font-size: 20px;">Feel free to explore and take your time with the content I share, this site is meant for exploration, not just a quick glance!</p>
+
+                        <p style = "margin: 0px; margin-left: 3px; margin-right: 3px; text-align: center; font-family: windowsxp; font-size: 20px;">This is my corner of the internet, where each menu button will take you to a page with a different design and layout customized by me.</p>
+
+                        <p style = "margin: 20px; text-align: center; font-family: windowsxp; font-size: 40px;"><strong>Welcome to my Neocities!</strong></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--tela esquerda-->
+            <div class = "left-container">
+                <div class = "left-window-main">
+                    <!--margin-bottom: 275px; -->
+                    <div class = "left-window-top">
+                        <p style = "color: white; display:inline-block; margin-left: 20px; padding: 0;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">Music Player</p>
+
+                    </div>
+                    <!--musga-->
+                    <div class = "left-window-bottom">
+                        <div id="musicplayer">
+                            <div>
+                                <marquee scrollamount="8" class="songtitle"></marquee>
+                            </div>
+                    
+                            <table class="controls">
+                                <tr>
+                                    <td>
+                                        <div class="prev-track" onclick="prevTrack()"><i class="fas fa-backward"></i></div>
+                                    </td>
+                                    <td>
+                                        <div class="playpause-track" onclick="playpauseTrack()" ><i class="fas fa-play"></i></div>
+                                    </td>
+                                    <td>
+                                        <div class="next-track" onclick="nextTrack()"><i class="fas fa-forward"></i></div>
+                                    </td>
+                                </tr>
+                            </table>
+                    
+                            <div class="seeking">
+                                <div class="current-time" style = "text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">00:00</div>
+                    
+                                <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                    
+                                <div class="total-duration" style = "text-align: center; font-family: Tahoma, Geneva, Verdana, sans-serif;">0:00</div>
+                            </div>
+                    
+                            <audio id="music" src=""></audio> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "flags-place-div">
+                    <div class = "flags-inside-div">
+                        <div class = "flag-top">
+                            <p style = "color: white; display:inline-block; margin-left: 20px; padding: 0;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">Flags!</p>
+                        </div>
+                            <img style = "width: 98.9%; height: 100%px; margin-left: 0.65%;" src = "/images/debian-linux.gif">
+                            <img style = "width: 98.9%; height: 100%px; margin-left: 0.65%;" src = "/images/y4.gif">
+                            <img style = "width: 98.9%; height: 100%px; margin-left: 0.65%;" src = "/images/x30.gif">
+                            <img style = "width: 98.9%; height: 100%px; margin-left: 0.65%;" src = "/images/x23.gif">
+                            <img style = "width: 98.9%; height: 100%px; margin-left: 0.65%;" src = "/images/0015-exit-button.gif">
+                            <img style = "width: 98.9%; height: 100%x; margin-left: 0.65%;" src = "/images/e75.gif">
+                            <img style = "width: 98.9%; height: 100%px; margin-left: 0.65%;" src = "/images/2e3f8699.gif">
+                        <div class = "flag-bottom">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            // initiate variables
+            let track_name = document.querySelector(".songtitle");
+     
+            let playpause_btn = document.querySelector(".playpause-track");
+            let next_btn = document.querySelector(".next-track");
+            let prev_btn = document.querySelector(".prev-track");
+     
+            let seek_slider = document.querySelector(".seek_slider");
+            let curr_time = document.querySelector(".current-time");
+            let total_duration = document.querySelector(".total-duration");
+     
+            let track_index = 0;
+            let isPlaying = false;
+            let updateTimer;
+            
+            // create new audio element
+            let curr_track = document.getElementById("music");
+            
+            //
+            // DEFINE YOUR SONGS HERE!!!!!
+            // MORE THAN FOUR SONGS CAN BE ADDED!!
+            // JUST ADD ANOTHER BRACKET WITH NAME AND PATH
+            // CATBOX.MOE IS RECOMMENDED FOR UPLOADING MP3 FILES
+            let track_list = [
+                {
+                    name:"Pulsewidth - Aphex Twin",
+                    path:"https://files.catbox.moe/20yk0k.mp3"
+                },
+                {
+                    name:"Music is Math - Boards of Canada",
+                    path:"https://files.catbox.moe/8w2uxm.mp3"
+                },
+                {
+                    name:"Death Grips is Online - Death Grips",
+                    path:"https://files.catbox.moe/wrd3w3.mp3"
+                },
+                {
+                    name: "Rinsed - Dean Blunt",
+                    path: "https://files.catbox.moe/oxjvlu.mp3",
+                },
+            ];
+            //
+            //
+            //
+            //
+            //
+     
+            function loadTrack(track_index) {
+                clearInterval(updateTimer);
+                resetValues();
+     
+                // load a new track
+                curr_track.src = track_list[track_index].path;
+                curr_track.load();
+                
+                // update details of the track
+                track_name.textContent = "playing " + (track_index + 1) + " of " + track_list.length + ": " + track_list[track_index].name;
+     
+                // set an interval of 1000 milliseconds for updating the seek slider
+                updateTimer = setInterval(seekUpdate, 1000);
+                
+                // move to the next track if the current one finishes playing 
+                curr_track.addEventListener("ended", nextTrack);
+            }
+     
+            // reset values
+            function resetValues() {
+                curr_time.textContent = "0:00";
+                total_duration.textContent = "0:00";
+                seek_slider.value = 0;
+            }
+     
+            // checks if song is playing
+            function playpauseTrack() {
+                if (!isPlaying) playTrack();
+                else pauseTrack();
+            }
+     
+            // plays track when play button is pressed
+            function playTrack() {
+                curr_track.play();
+                isPlaying = true;
+                
+                // replace icon with the pause icon
+                playpause_btn.innerHTML = '<i class="fas fa-pause"></i>';
+            }
+     
+            // pauses track when pause button is pressed
+            function pauseTrack() {
+                curr_track.pause();
+                isPlaying = false;
+                
+                // replace icon with the play icon
+                playpause_btn.innerHTML = '<i class="fas fa-play"></i>';
+            }
+     
+            // moves to the next track
+            function nextTrack() {
+                if (track_index < track_list.length - 1)
+                    track_index += 1;
+                else track_index = 0;
+                loadTrack(track_index);
+                playTrack();
+            }
+     
+            // moves to the previous track
+            function prevTrack() {
+                if (track_index > 0)
+                    track_index -= 1;
+                else track_index = track_list.length;
+                loadTrack(track_index);
+                playTrack();
+            }
+     
+            // seeker slider
+            function seekTo() {
+                seekto = curr_track.duration * (seek_slider.value / 100);
+                curr_track.currentTime = seekto;
+            }
+     
+            function seekUpdate() {
+                let seekPosition = 0;
+                
+                // check if the current track duration is a legible number
+                if (!isNaN(curr_track.duration)) {
+                    seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+                    seek_slider.value = seekPosition;
+                    
+                // calculate the time left and the total duration
+                let currentMinutes = Math.floor(curr_track.currentTime / 60);
+                let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+                let durationMinutes = Math.floor(curr_track.duration / 60);
+                let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+                    
+                // adding a zero to the single digit time values
+                if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+                if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+                if (currentMinutes < 10) { currentMinutes = currentMinutes; }
+                if (durationMinutes < 10) { durationMinutes = durationMinutes; }
+     
+                curr_time.textContent = currentMinutes + ":" + currentSeconds;
+                total_duration.textContent = durationMinutes + ":" + durationSeconds;
+              }
+            }
+            
+            // load the first track in the tracklist
+            loadTrack(track_index);
+        </script>
+
+
+
+
+    </body>    
+</html>

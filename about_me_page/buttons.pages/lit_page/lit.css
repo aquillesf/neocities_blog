@@ -1,0 +1,273 @@
+@font-face {
+    font-family: windowsxp;
+    src: url('../msdos_font/windows-xp-tahoma.ttf') format('truetype');
+}
+
+
+body{
+    background-color: #3a36a5;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+    margin-top: 100px;
+    margin-left: 8px;
+}
+
+.about_me_main {
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border-color: #d4d0c8;
+    border-style: outset;
+    border-width: 3px;
+    background-color: white;
+    
+}
+
+.top_about_me {
+    border-style: outset;
+    border-color: #d4d0c8;
+    box-shadow: 
+    inset -1px -1px 0px 0px #404040,
+    inset 1px 1px 0px 0px #ffffff,
+    inset -2px -2px 0px 0px #808080,
+    inset 2px 2px 0px 0px #eceae7;
+    background: -webkit-linear-gradient(left, #0a246a 0%, #a6caf0 100%, #a6caf0 101%) !important;
+    background-image: -webkit-linear-gradient(left, rgb(10, 36, 106) 0%, rgb(166, 202, 240) 100%, rgb(166, 202, 240) 101%) !important;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background: linear-gradient(to right, #0a246a 0%, #a6caf0 100%, #a6caf0 101%) !important;
+    
+}
+
+.bottom_about_me {
+
+    background-color: white;
+    flex-grow: 1;
+    border-style: outset;
+    border-color: #d4d0c8;
+    box-shadow: 
+    inset -1px -1px 0px 0px #404040,
+    inset 1px 1px 0px 0px #ffffff,
+    inset -2px -2px 0px 0px #808080,
+    inset 2px 2px 0px 0px #eceae7;
+
+
+}
+
+.left-window-main {
+    width: 210px;
+    height: 224px;
+    margin-left: 20px;
+    border-color: #d4d0c8;
+    border-style: outset;
+    border-width: 3px;
+    background-color: white;
+    box-shadow: 
+    inset -1px -1px 0px 0px #404040,
+    inset 1px 1px 0px 0px #ffffff,
+    inset -2px -2px 0px 0px #808080,
+    inset 2px 2px 0px 0px #eceae7;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left-window-top {
+
+    border-style: outset;
+    border-color: #d4d0c8;
+    box-shadow: 
+    inset -1px -1px 0px 0px #404040,
+    inset 1px 1px 0px 0px #ffffff,
+    inset -2px -2px 0px 0px #808080,
+    inset 2px 2px 0px 0px #eceae7;
+    background: -webkit-linear-gradient(left, #0a246a 0%, #a6caf0 100%, #a6caf0 101%) !important;
+    background-image: -webkit-linear-gradient(left, rgb(10, 36, 106) 0%, rgb(166, 202, 240) 100%, rgb(166, 202, 240) 101%) !important;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background: linear-gradient(to right, #0a246a 0%, #a6caf0 100%, #a6caf0 101%) !important;
+    flex-grow: 0;
+
+}
+
+
+.left-window-bottom {
+
+    background-color: white;
+    flex-grow:8;
+    border-style: outset;
+    border-color: #d4d0c8;
+    box-shadow: 
+    inset -1px -1px 0px 0px #404040,
+    inset 1px 1px 0px 0px #ffffff,
+    inset -2px -2px 0px 0px #808080,
+    inset 2px 2px 0px 0px #eceae7;
+
+
+}
+
+.main-top {
+
+    padding-top: 80px;
+
+}
+
+.top-buttons {
+    width: 80%; /* Ajusta a largura como uma porcentagem do viewport */
+    max-width: 720px; /* Define uma largura máxima para o botão */
+    height: 65px;
+    border-width: 3px;
+    border-style: outset;
+    border-color: #d4d0c8;
+    box-shadow:
+        inset -1px -1px 0px 0px #404040,
+        inset 1px 1px 0px 0px #ffffff,
+        inset -2px -2px 0px 0px #808080,
+        inset 2px 2px 0px 0px #eceae7;
+    background-color: #ffffff;
+    z-index: 1000; /* Garante que o botão esteja acima de outros elementos */
+    position: absolute; /* Faz com que o botão fique fixo em relação ao container pai */
+    top: 3%; /* Alinha o botão ao topo do viewport */
+    left: 50%; /* Centraliza horizontalmente com relação ao viewport */
+    transform: translateX(-50%);
+
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.lit:hover {
+    cursor: pointer;
+    background-color: #8b8983;
+    box-shadow: 
+    inset -1px -1px 0px 0px #404040,
+    inset 1px 1px 0px 0px #b9b8b8,
+    inset -2px -2px 0px 0px #808080,
+    inset 2px 2px 0px 0px #c2c0bd;
+    color: white;
+
+}
+
+.anchor {
+    color:black;
+    border-color: #d4d0c8;
+    border-style: outset;
+    border-width: 3px;
+    background-color: #d4d0c8;
+    width: 100%;
+    box-shadow: 
+    inset -1px -1px 0px 0px #404040,
+    inset 1px 1px 0px 0px #ffffff,
+    inset -2px -2px 0px 0px #808080,
+    inset 2px 2px 0px 0px #eceae7;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    cursor: pointer;
+    background-color: #8b8983;
+    box-shadow: 
+    inset -1px -1px 0px 0px #404040,
+    inset 1px 1px 0px 0px #b9b8b8,
+    inset -2px -2px 0px 0px #808080,
+    inset 2px 2px 0px 0px #c2c0bd;
+    color: white;
+
+}
+
+.flags-place-div {
+    width: 213px;
+    height: 252px;
+    border-color: #d4d0c8;
+    border-style: outset;
+    border-width: 4px;
+    background-color: white;
+    box-shadow: 
+    inset -1px -1px 0px 0px #404040,
+    inset 1px 1px 0px 0px #ffffff,
+    inset -2px -2px 0px 0px #808080,
+    inset 2px 2px 0px 0px #eceae7;
+    margin-top: 17px;
+    margin-left: 19px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: start ;
+    align-items: start;
+}
+
+.flags-inside-div {
+    display: flex;
+    flex-direction: column ;
+
+}
+
+.flag-top {
+    height: 50px;
+    width: 207px;
+    border-style: outset;
+    border-color: #d4d0c8;
+    box-shadow: 
+    inset -1px -1px 0px 0px #404040,
+    inset 1px 1px 0px 0px #ffffff,
+    inset -2px -2px 0px 0px #808080,
+    inset 2px 2px 0px 0px #eceae7;
+    background: -webkit-linear-gradient(left, #0a246a 0%, #a6caf0 100%, #a6caf0 101%) !important;
+    background-image: -webkit-linear-gradient(left, rgb(10, 36, 106) 0%, rgb(166, 202, 240) 100%, rgb(166, 202, 240) 101%) !important;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background: linear-gradient(to right, #0a246a 0%, #a6caf0 100%, #a6caf0 101%) !important;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text-aboutme {
+
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
