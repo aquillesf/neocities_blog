@@ -375,3 +375,10 @@ body{
     transform: scale(1.1);
     cursor: pointer;
 }
+
+.livros_bottom:hover {
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
