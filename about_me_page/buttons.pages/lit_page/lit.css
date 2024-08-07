@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
 @font-face {
     font-family: windowsxp;
     src: url('/msdos_font/windows-xp-tahoma.ttf') format('truetype');
@@ -170,12 +174,9 @@ body{
     border-style: outset;
     border-color: #d4d0c8;
     box-shadow: 
-    inset -1px -1px 0px 0px #404040,
-    inset 1px 1px 0px 0px #ffffff,
-    inset -2px -2px 0px 0px #808080,
+    inset 1px 1px 0px 0px #ffffff
     inset 2px 2px 0px 0px #eceae7;
     overflow: auto;
-
 }
 
 

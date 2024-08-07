@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
 @font-face {
     font-family: windowsxp;
     src: url('../msdos_font/windows-xp-tahoma.ttf') format('truetype');
