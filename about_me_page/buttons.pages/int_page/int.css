@@ -10,7 +10,7 @@
 
 body{
     background-color: #3a36a5;
-    height: 185vh;
+    height: 193vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,7 @@ body{
     display:flex;
     flex-direction: column;
     width: 500px;
-    height: 300px;
+    height: 355px;
     border-color: #d4d0c8;
     border-style: outset;
     border-width: 3px;
@@ -378,6 +378,23 @@ body{
 
 .livros_bottom:hover {
 
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.backtomenu {
+
+    width: 50px; /* Ajusta a largura como uma porcentagem do viewport */
+    height: 50px;
+    z-index: 1000; /* Garante que o botão esteja acima de outros elementos */
+    position: absolute; /* Faz com que o botão fique fixo em relação ao container pai */
+    top: 4%; /* Alinha o botão ao topo do viewport */
+    left: 2%; /* Centraliza horizontalmente com relação ao viewport */
+    
+
+}
+
+.backtomenu:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
