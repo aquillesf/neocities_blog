@@ -10,7 +10,7 @@
 
 body{
     background-color: #3a36a5;
-    height: 110vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 100vh;
+    height: 100%;
     margin-top: 100px;
     margin-left: 8px;
 }
